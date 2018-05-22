@@ -36,7 +36,7 @@ function updateToken(params) {
             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
             'User-Agent': (0, _utils.userAgentString)()
         },
-        body: (0, _formUrlencoded2.default.default)(params),
+        body: (0, _formUrlencoded2.default)(params),
         params: params,
         credentials: 'include',
         compress: false
